@@ -56,6 +56,8 @@ h6 {
   line-height: 140%;
 }
 
+/* navbar */
+
 .navbar {
   padding: 15px 0;
 }
@@ -133,6 +135,8 @@ h6 {
   line-height: 33.6px;
 }
 
+/* storage partners */
+
 .storage-partners {
   padding-top: 200px;
 }
@@ -181,6 +185,8 @@ h6 {
   margin-top: -7px;
 }
 
+/* locker unit */
+
 .locker-unit {
   padding-top: 180px;
 }
@@ -200,6 +206,8 @@ h6 {
 .lock-unit-tabs > div:first-child {
   background: #ff4513;
 }
+
+/* testimonial */
 
 .testimonials {
   margin-top: 180px;
@@ -237,6 +245,226 @@ h6 {
 
 /* footer */
 
-footer{
-    padding: 120px 0;
+footer {
+  padding: 180px 0 120px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  color: #2e3552;
+  font-size: 12px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin: 0;
+  padding: 0;
+}
+
+.max-width-720 {
+  max-width: 720px;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    text-align: center;
+  }
+  .banner-para {
+    position: relative;
+    margin: 0 auto;
+  }
+  .banner-img {
+    width: 60%;
+  }
+  .storage-space-poster > div {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  p {
+    max-width: 619px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24.8px;
+    padding: 0 15px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 719px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.32px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 26.24px;
+    font-weight: 600;
+  }
+
+  h5 {
+    color: #2e3552;
+    font-size: 12px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  h6 {
+    color: #2e3552;
+    font-size: 10px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .banner {
+    padding-top: 60px;
+  }
+  .storage-partners {
+    padding-top: 60px;
+  }
+
+  .storage-partners-tabs {
+    padding-top: 60px;
+  }
+  .storage-space-poster {
+    padding-top: 60px;
+  }
+
+  .locker-unit {
+    padding-top: 60px;
+  }
+
+  .storage-partners-tabs p {
+    max-width: unset;
+  }
+  .storage-partners-tabs > div {
+    height: unset;
+  }
+  .storage-partners-tabs img {
+    margin-top: 15px;
+  }
+  .storage-space-poster > div img {
+    max-width: 100%;
+  }
+  .testimonials {
+    margin-top: 60px;
+    padding: 60px 30px;
+  }
+  footer {
+    padding: 90px 0 60px;
+  }
+}
+
+/* Create Account CSS */
+
+.sign-up-body {
+  background: #4c13a2;
+}
+
+.sign-up-form-container {
+  margin: 120px 0;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f6f3fa;
+  width: 100%;
+  max-width: 520px;
+}
+
+label {
+  color: #2e3552;
+  font-size: 14px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input[type="checkbox"] {
+  background-color: #2e3552;
+}
+
+.tab-link1:active {
+  color: #f6f3fa;
+  text-decoration: none;
+}
+
+.tab-link1:active .personal-btn {
+  color: #f6f3fa;
+  background: #2e3552;
+  text-decoration: none;
+}
+
+.tab-link2:active {
+  color: #2e3552;
+  text-decoration: none;
+}
+
+.tab-link2:active .business-btn {
+  color: #2e3552;
+  background: #f6f3fa;
+  text-decoration: none;
+}
+
+.tab-link2:hover {
+  color: #f6f3fa;
+  text-decoration: none;
+}
+
+.personal-btn {
+  border-radius: 10px;
+  background: #2e3552;
+  color: #f6f3fa;
+}
+
+.personal-btn:hover {
+  border-radius: 10px;
+  background: #2e3552;
+  color: #f6f3fa;
+}
+
+.business-btn {
+  border-radius: 10px;
+  border: 2px solid #2e3552;
+  color: #2e3552;
+  background: #f6f3fa;
+}
+
+.business-btn:hover {
+  color: #2e3552;
+  border-radius: 10px;
+  border: 2px solid #2e3552;
+  background: #f6f3fa;
+}
+
+.btn-orange {
+  border-radius: 10px;
+  color: #fefefe;
+  background: #ff4513;
+}
+
+.login-orange {
+  color: #ff4513;
+  font-size: 16px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
